@@ -1,0 +1,7 @@
+
+    let personName = "moin";//in this line we are we are defining variable and assigning value "moin"
+    let personNameInLowercase = personName.toLocaleLowerCase(); // in this line we are changing string into to lower case and storing into "personNameInLowercase"
+    let personNameInUpperCase = personName.toLocaleUpperCase(); // in  this line we are changin string into uper case and storing into "personNameInUpperCase"
+    
+    console.log(personNameInLowercase); // we are printing personNameLower case variable 
+    console.log(personNameInUpperCase); // we are printing personNameUpper case variable 

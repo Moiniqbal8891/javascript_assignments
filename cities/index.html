@@ -1,0 +1,25 @@
+<script>
+    function describeCity(city1,country ="pakistan"){
+        citiesOfPakistan = [
+        "karachi",
+        "lahore",
+        "islamabad",
+        "peshawar"
+
+        ]; // this is an array in which cities of pak are svaed
+
+        let check = citiesOfPakistan.includes(city1); //check wheather city arguemnt in array or not by array.include method
+        if(check == true){
+         console.log(city1 + " is in " + country);  
+        }else {
+            console.log(city1 + " is not in " + country);  
+
+        }
+
+    }
+    
+    describeCity("karachi");
+    describeCity("lahore");
+    describeCity("mumbai");
+
+</script>

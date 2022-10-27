@@ -1,0 +1,20 @@
+<script>
+    const magician = ["adnan smai","lucky ali"];
+    const great_magician = [];
+    function show_magician(arrayName){
+                    for(let i=0; i<arrayName.length; i++){
+                console.log(arrayName[i]);
+            }
+        }
+    function make_great(){
+        for(let i=0; i<magician.length; i++){
+            great_magician[i] = "great " + magician[i];
+            
+            }
+        }
+    show_magician(magician); // print origianl magician array
+    make_great();
+    show_magician(great_magician); //print copy of array with great magician
+
+    </script> 
+ 

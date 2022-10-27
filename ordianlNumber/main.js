@@ -1,0 +1,32 @@
+    const ordinalNo= [1,2,3,4,5,6,7,8,9];
+    
+    for(let i=0; i<ordinalNo.length; i++){
+
+        if(ordinalNo[i] == 1){
+            console.log(ordinalNo[i] +"st");
+        }
+        else if(ordinalNo[i] == 2){
+            console.log(ordinalNo[i] +"nd");
+        }
+        else if(ordinalNo[i] == 3){
+            console.log(ordinalNo[i] +"rd");
+        }
+        else if(ordinalNo[i] == 4){
+            console.log(ordinalNo[i] +"th");
+        }
+        else if(ordinalNo[i] == 5){
+            console.log(ordinalNo[i] +"st");
+        }
+        else if(ordinalNo[i] == 6){
+            console.log(ordinalNo[i] +"th");
+        }
+        else if(ordinalNo[i] == 7){
+            console.log(ordinalNo[i] +"th");
+        }
+        else if(ordinalNo[i] == 8){
+            console.log(ordinalNo[i] +"th");
+        }
+        else if(ordinalNo[i] == 9){
+            console.log(ordinalNo[i] +"th");
+        }
+    }

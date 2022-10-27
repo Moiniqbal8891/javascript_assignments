@@ -1,0 +1,40 @@
+    
+<script>
+
+    // this is the guest list took from ex 16    
+
+    let guestList = ["Zia Khan", "Daniyal nigori","faraz","sir zeehsan","iqbal"];
+    console.log("Now you can invite only two person for dinner");
+    console.log(guestList.length);
+    let removeGuest1 = guestList.pop();
+    let removeGuest2 = guestList.pop();
+    let removeGuest3 = guestList.pop();
+
+    console.log("sir " + removeGuest1 + " You are not invited");
+    console.log("sir " + removeGuest2 + " You are not invited");
+    console.log("sir " + removeGuest3 + " You are not invited");
+
+    // here is the list of two person who are still inivted 
+
+    for (let i = 0; i<guestList.length; i++){
+
+        console.log("Sir " + guestList[i] + " You are still in the list who are invited");
+    }       
+        guestList.pop();
+        guestList.pop();
+        
+     finalGuestList = guestList.length;
+     console.log(finalGuestList);
+
+     if(finalGuestList == 0){
+        console.log("there is no guest in the list all guest have been removed");
+
+     }
+
+    
+     
+   
+
+
+</script>
+

@@ -1,0 +1,10 @@
+const student  = { 
+
+    name : "zia khan",
+    age : 60,
+    nationality : "pakistam"
+
+}
+console.log(student.name);
+console.log(student.age);
+console.log(student.nationality);

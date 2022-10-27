@@ -1,0 +1,16 @@
+
+<script>
+let guestList = ["Zia Khan", "Daniyal nigori", "sir zeehsan"];
+//let suppose sir daniyal nigori cant make dinner with us 
+guestList.splice(1,1,"Maria");
+
+for(let i=0; i<guestList.length; i++){
+    if(guestList[i] == "Maria"){
+    console.log("your are invited for dinner Miss " + guestList[i]);
+    }  
+    else{
+    console.log("your are invited for dinner Sir " + guestList[i]);
+
+    }  
+}
+</script>

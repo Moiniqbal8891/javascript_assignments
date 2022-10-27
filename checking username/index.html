@@ -1,0 +1,19 @@
+<script>
+    const current_username = ["moin","iqbal","haris","faraz","sameer"];
+    const new_username  = ["shahid","moin", "khalid","iqbal","umair"];
+    for(let i=0; i<new_username.length; i++){
+        if(current_username.includes(new_username[i]) == true){
+
+            console.log(new_username[i].toUpperCase() +" You need to enter a new username");
+        }
+        else if(current_username.includes(new_username[i]) == false){
+            console.log(new_username[i].toUpperCase() + " this username is available");
+
+    }
+
+
+}
+
+console.log(" Note :  only two name MOIN and IQBAL ARLREADY IN CURRENT USERNAME AND NEW USERNAME ARRAY");
+
+</script> 
